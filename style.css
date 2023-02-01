@@ -3,18 +3,28 @@ body {
   /* font-family: "Ubuntu", sans-serif; */
 }
 
-.jumbotron {
-  padding-top: 6rem; /* mengatur jarak antar foto dan navbar */
-  background-color: #e2edff;
+.tombol {
+  background-color: #FFEA20;
 }
 
+
 #projects {
-  background-color: #e2edff;
+  background-color: #fff;
+}
+
+#about {
+  background-color: #FFEA20;
+  color: #000;
+}
+
+#info {
+  background-color: #FFEA20;
+  color: #000;
 }
 
 #footer {
-  /* background-color: #2f4f4f;
-  color: white; */
+  background-color: #2f4f4f;
+  color: white;
 }
 
 section {
@@ -29,11 +39,26 @@ section {
   padding: 0;
 }
 
+#organisasi .row > * {
+  padding: 0;
+  
+}
+
+#contact {
+  background-color: #FFEA20;
+}
+
 /* .img-carousel {
   height: 500px;
 } */
 
 /* My animasi section */
+#my-animasi {
+  background-color: #FFEA20;
+  color: #000;
+  padding-bottom: 5%;
+}
+
 .animasi-box {
   position: relative;
   background-color: #212529;
@@ -43,7 +68,7 @@ section {
 }
 
 .animasi-box::before {
-  content: "MY";
+  content: "SR";
   position: absolute;
   color: #fff;
   font-size: 6em;
