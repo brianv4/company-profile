@@ -3,22 +3,28 @@ body {
   /* font-family: "Ubuntu", sans-serif; */
 }
 
-.tombol {
-  background-color: #FFEA20;
+#jumbotron {
+  background-color: #ffea20;
 }
 
+.tombol {
+  background-color: #ffea20;
+  color: black;
+  text-decoration: none;
+  hover: black;
+}
 
 #projects {
   background-color: #fff;
 }
 
 #about {
-  background-color: #FFEA20;
+  background-color: #ffea20;
   color: #000;
 }
 
 #info {
-  background-color: #FFEA20;
+  background-color: #ffea20;
   color: #000;
 }
 
@@ -41,11 +47,10 @@ section {
 
 #organisasi .row > * {
   padding: 0;
-  
 }
 
 #contact {
-  background-color: #FFEA20;
+  background-color: #ffea20;
 }
 
 /* .img-carousel {
@@ -54,7 +59,7 @@ section {
 
 /* My animasi section */
 #my-animasi {
-  background-color: #FFEA20;
+  background-color: #ffea20;
   color: #000;
   padding-bottom: 5%;
 }
