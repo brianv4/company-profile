@@ -1,153 +1,160 @@
 body {
-  font-family: "Poppins", sans-serif;
-  /* font-family: "Ubuntu", sans-serif; */
-}
-
-#jumbotron {
-  background-color: #ffea20;
-}
-
-.tombol {
-  background-color: #ffea20;
-  color: black;
-  text-decoration: none;
-  hover: black;
-}
-
-#projects {
-  background-color: #fff;
-}
-
-#about {
-  background-color: #ffea20;
-  color: #000;
-}
-
-#info {
-  background-color: #ffea20;
-  color: #000;
-}
-
-#footer {
-  background-color: #2f4f4f;
-  color: white;
-}
-
-section {
-  padding-top: 5rem;
-}
-
-.gallery-img {
-  width: 100%;
-}
-
-#gallery .row > * {
-  padding: 0;
-}
-
-#organisasi .row > * {
-  padding: 0;
-}
-
-#contact {
-  background-color: #ffea20;
-}
-
-/* .img-carousel {
-  height: 500px;
-} */
-
-/* My animasi section */
-#my-animasi {
-  background-color: #ffea20;
-  color: #000;
-  padding-bottom: 5%;
-}
-
-.animasi-box {
-  position: relative;
-  background-color: #212529;
-  border-radius: 10px;
-  height: 500px;
-  transform-style: preserve-3d;
-}
-
-.animasi-box::before {
-  content: "SR";
-  position: absolute;
-  color: #fff;
-  font-size: 6em;
-  font-weight: bold;
-  font-style: italic;
-  top: 30px;
-  left: 50%;
-  transform: translate(-50%, 0);
-  opacity: 0;
-  transition: 0.5s;
-}
-
-.animasi-box:hover::before {
-  opacity: 0.2;
-}
-
-.animasi-box::after {
-  content: "ANIMASI";
-  position: absolute;
-  color: #fff;
-  font-size: 4.3em;
-  font-weight: bold;
-  font-style: italic;
-  top: 350px;
-  left: 50%;
-  transform: translate(-50%, 0);
-  opacity: 0;
-  transition: 0.5s;
-}
-
-.animasi-box:hover::after {
-  opacity: 0.2;
-}
-
-.animasi-name {
-  position: absolute;
-  top: 0;
-  width: 100%;
-  color: #fff;
-  text-align: center;
-  font-size: 2em;
-  opacity: 0;
-  transform: translate3d(0, 0, 50px);
-  transition: 0.5s;
-}
-
-.animasi-box:hover .animasi-name {
-  top: 20px;
-  opacity: 1;
-}
-
-.animasi-detail-button {
-  position: absolute;
-  bottom: 0;
-  left: 50%;
-  transform: translate3d(-50%, 0, 100px);
-  opacity: 0;
-  transition: 0.5s;
-}
-
-.animasi-box:hover .animasi-detail-button {
-  opacity: 1;
-  bottom: 20px;
-}
-
-.animasi-img {
-  position: absolute;
-  top: 52%;
-  left: 50%;
-  transform: translate3d(-50%, -52%, 80px);
-  max-width: 300px;
-  transition: 0.5s;
-}
-
-.animasi-box:hover .animasi-img {
-  transform: translate(-50%, -52%, 100px) rotate(5deg) scale(1.2);
-}
+    font-family: "Poppins", sans-serif;
+    /* font-family: "Ubuntu", sans-serif; */
+  }
+  
+  #jumbotron {
+    background-color: #ffea20;
+  }
+  
+  .tombol {
+    background-color: #ffea20;
+    color: black;
+    text-decoration: none;
+  }
+  
+  .tombol:hover {
+    color: #000;
+    box-shadow: 0 0 10px 0 #f7fb00 inset, 0 0 20px 2px
+    #f7fb00;
+    border: 3px solid #f7fb00;
+  }
+  
+  #projects {
+    background-color: #fff;
+  }
+  
+  #about {
+    background-color: #ffea20;
+    color: #000;
+  }
+  
+  #info {
+    background-color: #ffea20;
+    color: #000;
+  }
+  
+  #footer {
+    background-color: #2f4f4f;
+    color: white;
+  }
+  
+  section {
+    padding-top: 5rem;
+  }
+  
+  .gallery-img {
+    width: 100%;
+  }
+  
+  #gallery .row > * {
+    padding: 0;
+  }
+  
+  #organisasi .row > * {
+    padding: 0;
+  }
+  
+  #contact {
+    background-color: #ffea20;
+  }
+  
+  /* .img-carousel {
+    height: 500px;
+  } */
+  
+  /* My animasi section */
+  #my-animasi {
+    background-color: #ffea20;
+    color: #000;
+    padding-bottom: 5%;
+  }
+  
+  .animasi-box {
+    position: relative;
+    background-color: #212529;
+    border-radius: 10px;
+    height: 500px;
+    transform-style: preserve-3d;
+  }
+  
+  .animasi-box::before {
+    content: "SR";
+    position: absolute;
+    color: #fff;
+    font-size: 6em;
+    font-weight: bold;
+    font-style: italic;
+    top: 30px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    opacity: 0;
+    transition: 0.5s;
+  }
+  
+  .animasi-box:hover::before {
+    opacity: 0.2;
+  }
+  
+  .animasi-box::after {
+    content: "ANIMASI";
+    position: absolute;
+    color: #fff;
+    font-size: 4.3em;
+    font-weight: bold;
+    font-style: italic;
+    top: 350px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    opacity: 0;
+    transition: 0.5s;
+  }
+  
+  .animasi-box:hover::after {
+    opacity: 0.2;
+  }
+  
+  .animasi-name {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    color: #fff;
+    text-align: center;
+    font-size: 2em;
+    opacity: 0;
+    transform: translate3d(0, 0, 50px);
+    transition: 0.5s;
+  }
+  
+  .animasi-box:hover .animasi-name {
+    top: 20px;
+    opacity: 1;
+  }
+  
+  .animasi-detail-button {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate3d(-50%, 0, 100px);
+    opacity: 0;
+    transition: 0.5s;
+  }
+  
+  .animasi-box:hover .animasi-detail-button {
+    opacity: 1;
+    bottom: 20px;
+  }
+  
+  .animasi-img {
+    position: absolute;
+    top: 52%;
+    left: 50%;
+    transform: translate3d(-50%, -52%, 80px);
+    max-width: 300px;
+    transition: 0.5s;
+  }
+  
+  .animasi-box:hover .animasi-img {
+    transform: translate(-50%, -52%, 100px) rotate(5deg) scale(1.2);
+  }
+  
